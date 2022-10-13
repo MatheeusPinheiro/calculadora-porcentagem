@@ -162,7 +162,9 @@ header h2 {
 
 
 @media only screen and (max-device-width: 470px) and (min-device-width: 320px) {
-
+	*{
+		overflow: hidden;
+	}
 	header {
 		height: 50px;
 		align-items: center;
